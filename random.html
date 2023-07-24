@@ -54,7 +54,11 @@
   </tr>
 </table>
 <div style="width: 100%">
-  <button>Randomize</button>
+  <button onclick="sound.play()">Randomize</button>
 </div>
+<audio controls id="sound" style="display: none">
+  <source src="sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 </body>
 </html>
